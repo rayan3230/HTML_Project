@@ -1,6 +1,5 @@
 # HTML_Project
 
-
 ## Project Overview
 
 This project is a tribute page dedicated to Lionel Messi, widely regarded as one of the greatest footballers of all time. The page includes a biography, a link to his Instagram, and a table showcasing his career statistics with different clubs.
@@ -21,14 +20,32 @@ This project is a tribute page dedicated to Lionel Messi, widely regarded as one
 
 ## Technologies Used
 
-- HTML
-- CSS
+- **HTML**: The structure of the webpage.
+- **CSS**: Styling the webpage to make it visually appealing.
 
 ## How to Run
 
-1. Clone the repository.
-2. Open `index.html` in a web browser.
+1. Clone the repository using the command:
+   ```bash
+   git clone https://github.com/yourusername/HTML_Project.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd HTML_Project
+   ```
+3. Open `index.html` in a web browser to view the tribute page.
+
+## Project Structure
+
+- `index.html`: The main HTML file containing the structure of the webpage.
+- `style.css`: The CSS file containing styles for the webpage.
+- `Img/`: Directory containing images used in the project.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Acknowledgements
+
+- The image of Lionel Messi is sourced from Transfermarkt.
+- The project is inspired by the love and admiration for Lionel Messi and his contributions to football.
