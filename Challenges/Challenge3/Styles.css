@@ -152,6 +152,7 @@ body{
     justify-content: center;
     align-items: center;
     color: rgba(255, 255, 255);
+    
 }
 .Github:hover,.Front:hover, .linkdin:hover, .instagram:hover, .Twitter:hover{
     background-color: rgba(197,249,42);
