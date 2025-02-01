@@ -1,0 +1,110 @@
+.body {
+    background-color: rgba(11,13,27,255);
+    overflow: hidden;
+}
+.Rectangle{
+    Position: absolute;
+    left: 20%;
+    top: 25%;
+    width: 830px;
+    height: 400px;
+    background-color: rgba(29,24,56,255);
+    border-radius: 9px;
+    z-index: 0;
+}
+.Title{
+    Position: absolute;
+    left: 5%;
+    top: 10%;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    color: rgba(255,255,255,255);
+}
+.Purpletext{
+    color: rgba(168,90,214,255);
+}
+.Text{
+    Position: absolute;
+    left: 5%;
+    top: 170px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: rgba(116,116,135,255);
+    line-height: 27px;
+}
+.StatCmpn{
+    Position: absolute;
+    left: 5%;
+    top: 300px;
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: rgba(255,255,255);
+}
+.StatTextCmpn{
+    Position: absolute;
+    left: 5%;
+    top: 330px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: rgba(116,116,135,255);
+}
+.StatTemp{
+    Position: absolute;
+    left: 20%;
+    top: 300px;
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: rgba(255,255,255);
+}
+.StatTextTemp{
+    Position: absolute;
+    left: 20%;
+    top: 330px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: rgba(116,116,135,255);
+}
+.StatQuer{
+    Position: absolute;
+    left: 34%;
+    top: 300px;
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: rgba(255,255,255);
+}
+.StatTextQuer{
+    Position: absolute;
+    left: 34%;
+    top: 330px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: rgba(116,116,135,255);
+}
+.img{
+    Position: absolute;
+    left: 64%;
+    top: 0%;
+    width: 400px;
+    height: 400px;
+    background-image: url(img/image-header-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgba(101, 53, 129, 0.296);
+    border-radius: 0px 9px 9px 0px;
+    z-index: -1;
+}
+.rectPurple{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left:64%;
+    top: 0%;
+    background-color: rgba(101, 53, 129, 0.44);
+    z-index: 1;
+    border-radius: 0px 9px 9px 0px;
+
+}
