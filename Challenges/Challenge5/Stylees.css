@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(img/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    overflow:  hidden;
+}
+
+.IconTitel{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Icon{
+    width: 67px;
+    height: 67px;
+    background-image: url(img/Logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Text{
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+}
+.BigTitle1{
+    font-size: 40px;
+    font-weight: Bold;
+    letter-spacing: 1px;
+}
+.BigTitle2{
+    font-size: 40px;
+    font-weight: Bold;
+    letter-spacing: 1px;
+    position: relative;
+    left: -4px;
+    margin-bottom: 6px;
+}
+.SmallTitle1{
+    font-size: 24px;
+}
+.SmallTitle2{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.Rectangle{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 0.086) ;
+    padding-top: 20px;
+}
+.Info{
+    width: 550px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.Info1{
+    width: 550px ;
+    height: 75px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.Name{
+    width: 275px ;
+    height: 75px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    
+}
+.NameText{
+
+    width:270px ;
+    height: 39px;
+    font-size: 16px;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.EmailCmp{
+    width: 275px ;
+    height: 75px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.Info2{
+    width: 550px ;
+    height: 75px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
