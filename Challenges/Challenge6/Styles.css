@@ -54,7 +54,7 @@ body{
     width: 330px;
     height: 450px;
     background-color: #202836;
-    border-radius: 10px;
+    border-radius: 19px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -112,7 +112,7 @@ body{
     width: 330px;
     height: 450px;
     background-color: #202836;
-    border-radius: 10px;
+    border-radius: 19px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -168,7 +168,7 @@ body{
     width: 330px;
     height: 450px;
     background-color: #202836;
-    border-radius: 10px;
+    border-radius: 19px;
     display: flex;
     flex-direction: column;
     gap: 20px;
