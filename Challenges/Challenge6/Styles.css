@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width: 100%;
+    background-image: url(img/Background_image.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #141a29;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+
+.TextTitle{
+    font-family: "Arial", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+.BigTitle{
+    order:1;
+    margin-bottom: 19px;
+}
+.SmallTitle{
+    order:2;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #646a77; 
+}
+.Rows{
+    order:3;
+    display: flex;
+    flex-direction: row;
+    gap:70px;
+
+}
+.Rows1{
+    width: 330px;
+    height: 450px;
+    background-color: #202836;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.Description1{
+    order:2;
+    padding-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: Bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.Description11{
+    order:3;
+    padding-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.icon11{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbe5e7;
+}
+.icon1{
+    order:1;
+    width: 60%;
+    height:60%;
+    background-image: url(https://em-content.zobj.net/source/apple/391/raised-hand_270b.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Image1{
+    order:4;
+    width: 100%;
+    height: 200px;
+    background-image: url(img/photo_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 9px;
+}
+.Rows2{
+    width: 330px;
+    height: 450px;
+    background-color: #202836;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.icon22{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbe5e7;
+}
+.icon2{
+    order:1;
+    width: 60%;
+    height:60%;
+    background-image: url(https://em-content.zobj.net/source/microsoft-teams/363/spiral-calendar_1f5d3-fe0f.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Description2{
+    order:2;
+    padding-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: Bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.Description22{
+    order:3;
+    padding-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.Image2{
+    order:4;
+    width: 100%;
+    height: 200px;
+    background-image: url(img/photo_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 9px;
+}
+.Rows3{
+    width: 330px;
+    height: 450px;
+    background-color: #202836;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.icon33{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbe5e7;
+}
+.icon3{
+    order:1;
+    width: 60%;
+    height:60%;
+    background-image: url(https://em-content.zobj.net/source/apple/391/speech-balloon_1f4ac.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Description3{
+    order:2;
+    padding-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: Bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.Description33{
+    order:3;
+    padding-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.Image3{
+    order:4;
+    width: 100%;
+    height: 200px;
+    background-image: url(img/photo_3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 9px;
+}
