@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hr{
+    width: 90%;
+    border: 1 solid #975726;
+    margin-top: 50px;
+    margin-right: 190px;
+}
+ol li::marker {
+    color: #975726; /* Change number color */
+    font-weight: bold; /* Optional: Make bold */
+}
+ul li::marker {
+    color: #975726; /* Change number color */
+    font-weight: bold; /* Optional: Make bold */
+}
+
+  
+body {
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    margin: 200px  0px 200px 0px;
+}
+.Box{
+    width: 660px;
+    height: 1800px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.img-food{
+    order: 1;
+    width: 550px;
+    height: 300px;
+    background-image: url("img/image-omelette.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 18px;
+}
+.Big-title{
+    order: 2;
+    font-family:"Young Serif";
+    font-size: 37px;
+    padding-left: 20px;
+}
+.Text{
+    order: 3;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight:400;
+    margin-bottom: 20px;
+}
+.Box1{
+    order: 4;
+    width: 500px;
+    height: 200px;
+    padding-left:20px;
+    margin-left: 30px;
+    border-radius:  9px;
+    background-color: #fff7fc;
+    padding: 30px;
+    color:#542038;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    font-weight: 800;
+}
+.tiri{
+    padding:30px;
+    font-weight: 400;
+    text-indent: 20px;
+}
+.Title1{
+    order: 5;
+    padding-left: 13px;
+    font-size: 29px;
+    font-family: "Young Serif";
+    color: #975726;
+}
+.tiri2{
+    padding:30px;
+    text-indent: 20px;
+    font-size: 12px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 6px;
+}
+.Title2{
+    order: 6;
+    padding-left: 13px;
+    font-size: 29px;
+    font-family: "Young Serif";
+    color: #975726;
+}
+.tiri3{
+    padding:30px;
+    text-indent: 20px;
+    font-size: 12px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    color: black;
+    line-height: 1.9;
+    margin-bottom: 6px;
+}
+.Title3{
+    order: 7;
+    display: flex;
+    flex-direction: column;
+    padding-left: 13px;
+    font-size: 29px;
+    font-family: "Young Serif";
+    color: #975726;
+}
+.Sous-text{
+    color:black;
+    font-weight: 600;
+    text-indent: 20px;
+    font-size: 12px;
+    font-family: "Segoe UI";
+    color: black;
+    padding-top: 20px;
+}
+table{
+    color: black;
+    font-weight: 400;
+    text-indent: 20px;
+    font-size: 12px;
+    font-family: "Segoe UI";
+    padding-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.rowscolor{
+    color: #975726;
+    font-weight: 600;
+}
+
+.row:not(:last-child){
+    border-bottom: .3px solid #000000;
+    margin-bottom: 4px;
+}
+
+td, th {
+    padding: 10px;
+}
+
